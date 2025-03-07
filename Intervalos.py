@@ -18,7 +18,7 @@ def calculate_stats(process_times):
 
 # Lista de número de procesos para simular
 num_processes_list = [25, 50, 100, 150, 200]
-intervals = [10, 5, 1]  # Intervalos de llegada de los procesos: 5 segundos y 1 segundo
+intervals = [5, 1]  # Intervalos de llegada de los procesos: 5 segundos y 1 segundo
 
 # Almacenar los resultados
 avg_times = {interval: [] for interval in intervals}
